@@ -1,0 +1,25 @@
+Manually add shortcut to scripts
+
+To define a keyboard shortcut, open Finder select the script file, and
+highlight the name. Append to the name of the script a backslash "\", then one
+or more modifiers. Then any A-Z upper-case letter (just one), representing the
+lower-case letter you'll type. If naming from the commandline the \ will need
+to be escaped (meaning 2 '\').
+
+Example: If I have a script called "Backup Script", and I change its filename
+to "Backup Script\coM", its keyboard shortcut will be Control-Option-M.
+
+The Modifiers:
+m - Command
+c - Control
+o - Option
+s - Shift
+
+
+Note: Option and Shift cannot be used on their own, since they're standard
+typing keys, only in combination with Command and/or Control.
+
+If you use .scpt extension: Add the "\" and modifiers and A-Z character before
+the ".scpt". The extension should always be at the end of any file name, so the
+system can identify the file type. (And if you choose not to "show all
+extensions" in the Finder, that's exactly what will happen anyway.)
